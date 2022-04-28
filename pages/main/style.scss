@@ -1,0 +1,164 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+$ourFriends-background-color: #FAFAFA;
+$btn-border-color: #F1CDB3;
+$btn-hover-color: #FDDCC4;
+
+@mixin flexColumn() {
+    display: flex;
+    flex-direction: column;
+}
+
+%align-items-for-column {
+    align-items: center;
+}
+
+.header {
+    display: flex;
+}
+
+.not-only {
+    display: flex;
+}
+
+.about {
+    display: flex;
+}
+
+.ourFriends {
+
+}
+
+.animals {
+    display: flex;
+    justify-content: space-around;
+
+    .leftButton {
+        @include flexColumn();
+        @extend %align-items-for-column;
+        padding: 23px 19px;
+        width: 52px;
+        height: 52px;
+        border: 2px solid $btn-border-color;
+        box-sizing: border-box;
+        border-radius: 100px;
+    }
+
+    .rightButton {
+        @include flexColumn();
+        @extend %align-items-for-column;
+        padding: 23px 19px;
+        width: 52px;
+        height: 52px;
+        border: 2px solid $btn-border-color;
+        box-sizing: border-box;
+        border-radius: 100px; 
+    }
+
+    .katrine {
+    @include flexColumn();
+    @extend %align-items-for-column;
+    justify-content: space-around;
+    background-color: $ourFriends-background-color;
+    width: 270px;
+    height: 435px;
+    border-radius: 9px;
+    
+        .pet-name {
+        font-size: 20px;
+        }
+
+        .btn {
+        @include flexColumn();
+        @extend %align-items-for-column;
+        padding: 15px 45px;
+        width: 187px;
+        height: 52px;
+        border: 2px solid $btn-border-color;
+        box-sizing: border-box;
+        border-radius: 100px;
+        }
+
+        &:hover {
+        cursor: pointer;
+        background-color: darken($ourFriends-background-color, 10%);
+
+        .btn {
+            background-color: $btn-hover-color;
+            cursor: pointer;
+            }
+        }
+    }
+
+    .jennifer {
+    @include flexColumn();
+    @extend %align-items-for-column;
+    justify-content: space-around;
+    background-color: $ourFriends-background-color;
+    width: 270px;
+    height: 435px;
+    border-radius: 9px;
+
+        .pet-name2 {
+        font-size: 20px;
+        }
+
+        .btn {
+        @include flexColumn();
+        @extend %align-items-for-column;
+        padding: 15px 45px;
+        width: 187px;
+        height: 52px;
+        border: 2px solid $btn-border-color;
+        box-sizing: border-box;
+        border-radius: 100px;
+        }
+
+        &:hover {
+        cursor: pointer;
+        background-color: darken($ourFriends-background-color, 10%);;
+
+        .btn {
+            background-color: $btn-hover-color;
+            cursor: pointer;
+            }  
+        }
+
+    .woody {
+    @include flexColumn();
+    @extend %align-items-for-column;
+    justify-content: space-around;
+    background-color: $ourFriends-background-color;
+    width: 270px;
+    height: 435px;
+    border-radius: 9px;
+
+        .pet-name3 {
+        font-size: 20px;
+        }
+
+        .btn {
+        @include flexColumn();
+        @extend %align-items-for-column;
+        padding: 15px 45px;
+        width: 187px;
+        height: 52px;
+        border: 2px solid $btn-border-color;
+        box-sizing: border-box;
+        border-radius: 100px;
+        }
+
+        &:hover {
+        cursor: pointer;
+        background-color: darken($ourFriends-background-color, 10%);;
+
+        .btn {
+            background-color: $btn-hover-color;
+            cursor: pointer;
+            }
+        }
+    }
+}

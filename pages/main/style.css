@@ -1,0 +1,1026 @@
+@font-face {
+  font-family: Georgia;
+  src: url(../../assets/fonts/georgia/Georgia.woff);
+  src: url(../../assets/fonts/georgia/Georgia.woff2);
+}
+
+@font-face {
+  font-family: Arial;
+  src: url(../../assets/fonts/arial/ArialMT.woff);
+  src: url(../../assets/fonts/arial/ArialMT.woff2);
+}
+
+body {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  background-image: url(../../assets/images/footer-background.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo_menu {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3%;
+}
+
+.burger {
+  display: none;
+}
+
+.logo {
+  width: 184px;
+  height: 60px;
+}
+
+.menu {
+  width: 443px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu .a1 {
+  font-size: 15px;
+  color: #FAFAFA;
+  text-decoration: underline;
+}
+
+.menu a {
+  font-size: 15px;
+  color: #CDCDCD;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  color: #FAFAFA;
+}
+
+.not_only {
+ width: 100%;
+ background-image: url(../../assets/images/footer-background.png);
+ display: flex;
+ justify-content: center;
+ align-items: flex-end;
+}
+
+.not_only1 {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.not_only1_text h2 {
+  font-size: 44px;
+  line-height: 57px;
+  color: #FFFFFF;
+  margin-top: 0;
+}
+
+.not_only1_text p {
+  font-size: 15px;
+  line-height: 24px;
+  color: #CDCDCD;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.not_only1_text button {
+  width: 207px;
+  height: 52px;
+  background: #F1CDB3;
+  border-radius: 100px;
+  border: 1px solid #F1CDB3;
+  font-size: 17px;
+  line-height: 22px;
+  letter-spacing: 0.06em;
+  color: #292929;
+  transition: all 0.3s;
+  margin-bottom: 0;
+}
+
+.not_only1_text button:hover {
+  cursor: pointer;
+  background: #FDDCC4;
+}
+
+.not_only1 img {
+  width: 698px;
+  height: 728px;
+}
+
+.about_the_shelter {
+  width: 100%;
+  background: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about_the_shelter1 {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5%
+}
+
+.about_the_shelter1 img {
+  width: 300px;
+  height: 408px;
+}
+
+.about_the_shelter1_text h3 {
+  font-size: 35px;
+  line-height: 45px;
+  letter-spacing: 0.06em;
+  color: #545454;
+}
+
+.p1 {
+  font-size: 15px;
+  line-height: 24px;
+  color: #4C4C4C;
+}
+
+.p2 {
+  font-size: 15px;
+  line-height: 24px;
+  color: #4C4C4C;
+}
+
+.our_friends {
+  width: 100%;
+  background: #F6F6F6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.our_friends1 {
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5%;
+}
+
+.our_friends1 h3 {
+  font-size: 35px;
+  line-height: 45px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: #545454;
+}
+
+.animals3 {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5%;
+}
+
+.arrow_left {
+  width: 52px;
+  height: 52px;
+  border: 2px solid #F1CDB3;
+  border-radius: 100px;
+}
+
+.arrow_left:hover {
+  cursor: pointer;
+  background: #FDDCC4;
+}
+
+.arrow_right {
+  width: 52px;
+  height: 52px;
+  border: 2px solid #F1CDB3;
+  border-radius: 100px;
+}
+
+.arrow_right:hover {
+  cursor: pointer;
+  background: #FDDCC4;
+}
+
+.katrine {
+  width: 270px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #FAFAFA;
+  border-radius: 9px;
+}
+
+.katrine:hover {
+  cursor: pointer;
+}
+
+.katrine p {
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: #545454;
+}
+
+.katrine button {
+  width: 187px;
+  height: 52px;
+  border: 2px solid #F1CDB3;
+  border-radius: 100px;
+  font-size: 17px;
+  line-height: 22px;
+  letter-spacing: 0.06em;
+  color: #292929;
+  margin-bottom: 20px;
+}
+
+.katrine button:hover {
+  cursor: pointer;
+  background-color: #FDDCC4;
+}
+
+.jennifer {
+  width: 270px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #FAFAFA;
+  border-radius: 9px;
+}
+
+.jennifer:hover {
+  cursor: pointer;
+}
+
+.jennifer p {
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: #545454;
+}
+
+.jennifer button {
+  width: 187px;
+  height: 52px;
+  border: 2px solid #F1CDB3;
+  border-radius: 100px;
+  font-size: 17px;
+  line-height: 22px;
+  letter-spacing: 0.06em;
+  color: #292929;
+  margin-bottom: 20px;
+}
+
+.jennifer button:hover {
+  cursor: pointer;
+  background-color: #FDDCC4;
+}
+
+.woody {
+  width: 270px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #FAFAFA;
+  border-radius: 9px;
+}
+
+.woody:hover {
+  cursor: pointer;
+}
+
+.woody p {
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: #545454;
+}
+
+.woody button {
+  width: 187px;
+  height: 52px;
+  border: 2px solid #F1CDB3;
+  border-radius: 100px;
+  font-size: 17px;
+  line-height: 22px;
+  letter-spacing: 0.06em;
+  color: #292929;
+  margin-bottom: 20px;
+}
+
+.woody button:hover {
+  cursor: pointer;
+  background-color: #FDDCC4;
+}
+
+.buttons0 {
+  display: none;
+}
+
+.get_button {
+  width: 261px;
+  height: 52px;
+  border: 2px solid #F1CDB3;
+  background: #F1CDB3;
+  border-radius: 100px;
+}
+
+.get_button a {
+  font-size: 17px;
+  line-height: 22px;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+  color:#292929;
+}
+
+.get_button:hover {
+  cursor: pointer;
+  background: #FDDCC4;
+}
+
+/*.animals .leftButton, .animals .rightButton, .katrine, .katrine .btn, .jennifer, .jennifer .btn, .woody, .woody .btn {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.animals {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.animals .leftButton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 23px 19px;
+  width: 52px;
+  height: 52px;
+  border: 2px solid #F1CDB3;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 100px;
+}
+
+.animals .rightButton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 23px 19px;
+  width: 52px;
+  height: 52px;
+  border: 2px solid #F1CDB3;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 100px;
+}
+
+.katrine {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: #FAFAFA;
+  width: 270px;
+  height: 435px;
+  border-radius: 9px;
+}
+
+.katrine .pet-name {
+  font-size: 20px;
+}
+
+.katrine .btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 15px 45px;
+  width: 187px;
+  height: 52px;
+  border: 2px solid #F1CDB3;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 100px;
+}
+
+.katrine:hover {
+  cursor: pointer;
+  background-color: #e1e1e1;
+}
+
+.katrine:hover .btn {
+  background-color: #FDDCC4;
+  cursor: pointer;
+}
+
+.jennifer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: #FAFAFA;
+  width: 270px;
+  height: 435px;
+  border-radius: 9px;
+}
+
+.jennifer .pet-name2 {
+  font-size: 20px;
+}
+
+.jennifer .btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 15px 45px;
+  width: 187px;
+  height: 52px;
+  border: 2px solid #F1CDB3;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 100px;
+}
+
+.jennifer:hover {
+  cursor: pointer;
+  background-color: #e1e1e1;
+}
+
+.jennifer:hover .btn {
+  background-color: #FDDCC4;
+  cursor: pointer;
+}
+
+.woody {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: #FAFAFA;
+  width: 270px;
+  height: 435px;
+  border-radius: 9px;
+}
+
+.woody .pet-name3 {
+  font-size: 20px;
+}
+
+.woody .btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 15px 45px;
+  width: 187px;
+  height: 52px;
+  border: 2px solid #F1CDB3;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 100px;
+}
+
+.woody:hover {
+  cursor: pointer;
+  background-color: #e1e1e1;
+}
+
+.woody:hover .btn {
+  background-color: #FDDCC4;
+  cursor: pointer;
+}*/
+
+.help {
+  width: 100%;
+  background: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.help1 {
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5%;
+}
+
+.help1 h3 {
+  font-size: 35px;
+  line-height: 45px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: #545454;
+}
+
+.help2 {
+  width: 1026px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 90px;
+}
+
+.in_addition {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #F6F6F6;
+}
+
+.in_addition1 {
+  width: 915px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5%;
+}
+
+.img_dog {
+  width: 505px;
+  height: 261px;
+}
+
+.donation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1px;
+}
+
+.donation h3 {
+  font-size: 35px;
+  line-height: 45px;
+  letter-spacing: 0.06em;
+  color: #545454;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.donation h5 {
+  font-size: 15px;
+  line-height: 17px;
+  letter-spacing: 0.06em;
+  color: #545454;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.credit_card {
+  background: #F1CDB3;
+  border-radius: 9px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.credit_card img {
+  width: 30px;
+  height: 23px;
+}
+
+.credit_card a {
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.06em;
+  color: #545454;
+  text-decoration: none;
+}
+
+.donation p {
+  font-style: italic;
+  font-size: 12px;
+  line-height: 18px;
+  color: #B2B2B2;
+  margin-top: 0;
+}
+
+footer {
+  width: 100%;
+  background: url(../../assets/images/footer-background.png);
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.contacts {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3%;
+}
+
+.for_questions {
+  width: 278px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.for_questions h3 {
+  font-size: 35px;
+  line-height: 45px;
+  letter-spacing: 0.06em;
+  color: #FFFFFF;
+  margin-top: 0;
+}
+
+.email {
+  display: flex;
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.email img {
+  width: 40px;
+  height: 32px;
+}
+
+.email a {
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.06em;
+  color: #F1CDB3;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.phone {
+  display: flex;
+  align-items: center;
+}
+
+.phone img {
+  width: 40px;
+  height: 32px;
+}
+
+.phone a {
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.06em;
+  color: #F1CDB3;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.we_are_waiting {
+  width: 302px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.we_are_waiting h3 {
+  font-size: 35px;
+  line-height: 45px;
+  letter-spacing: 0.06em;
+  color: #FFFFFF;
+  margin-top: 0;
+}
+
+.location1 {
+  display: flex;
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+.location1 img {
+  width: 22px;
+  height: 32px;
+}
+
+.location1 a {
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.06em;
+  color: #F1CDB3;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.location2 {
+  display: flex;
+  align-items: center;
+}
+
+.location2 img {
+  width: 22px;
+  height: 32px;
+}
+
+.location2 a {
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.06em;
+  color: #F1CDB3;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.footer_puppy {
+  width: 300px;
+  height: 310px;
+}
+
+@media (min-width: 768px) and (max-width: 1279px) {
+  header {
+    width: 768px;
+  }
+  .logo_menu {
+    width: 708px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .not_only {
+    width: 768px;
+  }
+  .not_only1 {
+    width: 569px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+  }
+  .not_only1_text button {
+    width: 207px;
+    height: 52px;
+    margin-bottom: 100px;
+  }
+  .not_only1 img {
+    width: 569px;
+    height: 593px;
+  }
+  .about_the_shelter {
+    width: 768px;
+  }
+  .about_the_shelter1 {
+    width: 437px;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .our_friends {
+    width: 768px;
+  }
+  .our_friends1 {
+    width: 708px;
+  }
+  .animals3 {
+    width: 708px;
+  }
+  .woody {
+    display: none;
+  }
+  .help {
+    width: 768px;
+  }
+  .help1 {
+    width: 630px;
+  }
+  .help2 {
+    width: 630px;
+    gap: 50px 70px;
+  }
+  .in_addition {
+    width: 768px;
+  }
+  .in_addition1 {
+    width: 380px;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+  footer {
+    width: 768px;
+  }
+  .contacts {
+    width: 708px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .for_questions {
+    margin-right: 30px;
+  }
+  .we_are_waiting {
+    margin-left: 30px;
+  }
+  .footer_puppy {
+    margin-top: 65px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  header {
+    width: 320px;
+  }
+  .logo_menu {
+    width: 257px;
+    justify-content: flex-start;
+  }
+  .burger {
+    display: inline-block;
+    margin-left: 50px;
+  }
+  .menu {
+    display: none;
+  }
+  main {
+    width: 320px;
+  }
+  .not_only1 {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+  }
+  .not_only1_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .not_only1_text h2 {
+    text-align: center;
+  }
+  .not_only1_text p {
+    text-align: center;
+  }
+  .not_only1 img {
+    width: 260px;
+    height: 272px;
+    margin-top: 105px;
+  }
+  .about_the_shelter {
+    width: 320px;
+  }
+  .about_the_shelter1 {
+    width: 300px;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .our_friends {
+    width: 320px;
+  }
+  .our_friends1 {
+    width: 300px;
+  }
+  .animals3 {
+    width: 270px;
+    flex-direction: column;
+  }
+  .arrow_left {
+    display: none;
+  }
+  .jennifer {
+    display: none;
+  }
+  .woody {
+    display: none;
+  }
+  .arrow_right {
+    display: none;
+  }
+  .buttons0 {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 42px;
+  }
+  .arrow_left_none {
+    width: 52px;
+    height: 52px;
+    border: 2px solid #F1CDB3;
+    border-radius: 100px;
+    margin-right: 40px;
+  }
+  .arrow_left_none:hover {
+    cursor: pointer;
+    background: #FDDCC4;
+  }
+  .arrow_right_none {
+    width: 52px;
+    height: 52px;
+    border: 2px solid #F1CDB3;
+    border-radius: 100px;
+    margin-left: 40px;
+  }
+  .arrow_right_none:hover {
+    cursor: pointer;
+    background: #FDDCC4;
+  }
+  .get_button {
+    margin-bottom: 42px;
+  }
+  .help {
+    width: 320px;
+  }
+  .help2 {
+    width: 290px;
+    gap: 10px 20px;
+    margin-bottom: 42px;
+  }
+  .in_addition {
+    width: 320px;
+  }
+  .in_addition1 {
+    width: 300px;
+    flex-direction: column-reverse;
+  }
+  .donation {
+    text-align: center;
+  }
+  .img_dog {
+    width: 260px;
+    height: 135px;
+  }
+  footer {
+    width: 320px;
+  }
+  .contacts {
+    width: 300px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .for_questions {
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+  .for_questions h3 {
+    text-align: center;
+  }
+  .we_are_waiting {
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  .we_are_waiting h3 {
+    text-align: center;
+  }
+}

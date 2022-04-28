@@ -1,0 +1,697 @@
+@font-face {
+    font-family: Georgia;
+    src: url(../../assets/fonts/georgia/Georgia.woff);
+    src: url(../../assets/fonts/georgia/Georgia.woff2);
+}
+  
+@font-face {
+    font-family: Arial;
+    src: url(../../assets/fonts/arial/ArialMT.woff);
+    src: url(../../assets/fonts/arial/ArialMT.woff2);
+}
+
+body {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    background: url(../../assets/images/footer-background.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo_menu {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3%;
+}
+
+.burger {
+    display: none;
+}
+
+.logo {
+    width: 184px;
+    height: 60px;
+}
+
+.menu {
+    width: 443px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu .a2 {
+    font-size: 15px;
+    color: #FAFAFA;
+    text-decoration: underline;
+}
+
+.menu a {
+    font-size: 15px;
+    color: #CDCDCD;
+    text-decoration: none;
+}
+  
+.menu a:hover {
+    color: #FAFAFA;
+}
+
+main {
+    width: 100%;
+    background-color: #F6F6F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.our_friends {
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5%;
+}
+
+.our_friends h3 {
+    font-size: 35px;
+    text-align: center;
+    color: #545454;
+}
+
+.animals {
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 5%;
+}
+
+.katrine {
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FAFAFA;
+    border-radius: 9px;
+}
+
+.katrine p {
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: #545454;
+}
+
+.katrine button {
+    width: 187px;
+    height: 52px;
+    border: 2px solid #F1CDB3;
+    border-radius: 100px;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: 0.06em;
+    color: #292929;
+    margin-bottom: 20px;
+}
+
+.katrine:hover {
+    cursor: pointer;
+}
+
+.katrine:hover button {
+    cursor: pointer;
+    background-color: #FDDCC4;
+}
+
+.jennifer {
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FAFAFA;
+    border-radius: 9px;
+}
+
+.jennifer p {
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: #545454;
+}
+
+.jennifer button {
+    width: 187px;
+    height: 52px;
+    border: 2px solid #F1CDB3;
+    border-radius: 100px;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: 0.06em;
+    color: #292929;
+    margin-bottom: 20px;
+}
+
+.jennifer:hover {
+    cursor: pointer;
+}
+
+.jennifer:hover button {
+    cursor: pointer;
+    background-color: #FDDCC4;
+}
+
+.woody {
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FAFAFA;
+    border-radius: 9px;
+}
+
+.woody p {
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: #545454;
+}
+
+.woody button {
+    width: 187px;
+    height: 52px;
+    border: 2px solid #F1CDB3;
+    border-radius: 100px;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: 0.06em;
+    color: #292929;
+    margin-bottom: 20px;
+}
+
+.woody:hover {
+    cursor: pointer;
+}
+
+.woody:hover button {
+    cursor: pointer;
+    background-color: #FDDCC4;
+}
+
+.sophia {
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FAFAFA;
+    border-radius: 9px;
+}
+
+.sophia p {
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: #545454;
+}
+
+.sophia button {
+    width: 187px;
+    height: 52px;
+    border: 2px solid #F1CDB3;
+    border-radius: 100px;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: 0.06em;
+    color: #292929;
+    margin-bottom: 20px;
+}
+
+.sophia:hover {
+    cursor: pointer;
+}
+
+.sophia:hover button {
+    cursor: pointer;
+    background-color: #FDDCC4;
+}
+
+.timmy {
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FAFAFA;
+    border-radius: 9px;
+}
+
+.timmy p {
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: #545454;
+}
+
+.timmy button {
+    width: 187px;
+    height: 52px;
+    border: 2px solid #F1CDB3;
+    border-radius: 100px;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: 0.06em;
+    color: #292929;
+    margin-bottom: 20px;
+}
+
+.timmy:hover {
+    cursor: pointer;
+}
+
+.timmy:hover button {
+    cursor: pointer;
+    background-color: #FDDCC4;
+}
+
+.charly {
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FAFAFA;
+    border-radius: 9px;
+}
+
+.charly p {
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: #545454;
+}
+
+.charly button {
+    width: 187px;
+    height: 52px;
+    border: 2px solid #F1CDB3;
+    border-radius: 100px;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: 0.06em;
+    color: #292929;
+    margin-bottom: 20px;
+}
+
+.charly:hover {
+    cursor: pointer;
+}
+
+.charly:hover button {
+    cursor: pointer;
+    background-color: #FDDCC4;
+}
+
+.scarlett {
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FAFAFA;
+    border-radius: 9px;
+}
+
+.scarlett p {
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: #545454;
+}
+
+.scarlett button {
+    width: 187px;
+    height: 52px;
+    border: 2px solid #F1CDB3;
+    border-radius: 100px;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: 0.06em;
+    color: #292929;
+    margin-bottom: 20px;
+}
+
+.scarlett:hover {
+    cursor: pointer;
+}
+
+.scarlett:hover button {
+    cursor: pointer;
+    background-color: #FDDCC4;
+}
+
+.freddie {
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FAFAFA;
+    border-radius: 9px;
+}
+
+.freddie p {
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: #545454;
+}
+
+.freddie button {
+    width: 187px;
+    height: 52px;
+    border: 2px solid #F1CDB3;
+    border-radius: 100px;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: 0.06em;
+    color: #292929;
+    margin-bottom: 20px;
+}
+
+.freddie:hover {
+    cursor: pointer;
+}
+
+.freddie:hover button {
+    cursor: pointer;
+    background-color: #FDDCC4;
+}
+
+.buttons {
+    width: 340px;
+    height: 52px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button_left1, .button_left2 {
+    width: 52px;
+    height: 52px;
+    border: 2px solid #CDCDCD;
+    border-radius: 100px;
+}
+
+.button1 {
+    width: 52px;
+    height: 52px;
+    border: 2px solid #FDDCC4;
+    border-radius: 100px;
+    background-color: #FDDCC4;
+}
+
+.button_right1, .button_right2 {
+    width: 52px;
+    height: 52px;
+    border: 2px solid #FDDCC4;
+    border-radius: 100px;
+}
+
+.button_right1:hover, .button_right2:hover {
+    cursor: pointer;
+    background-color: #FDDCC4;
+}
+
+footer {
+    width: 100%;
+    background: url(../../assets/images/footer-background.png);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+  
+.contacts {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3%;
+}
+  
+.for_questions {
+    width: 278px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+  
+.for_questions h3 {
+    font-size: 35px;
+    line-height: 45px;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    margin-top: 0;
+}
+  
+.email {
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+  
+.email img {
+    width: 40px;
+    height: 32px;
+}
+  
+.email a {
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    color: #F1CDB3;
+    text-decoration: none;
+    margin-left: 20px;
+}
+  
+.phone {
+    display: flex;
+    align-items: center;
+}
+  
+.phone img {
+    width: 40px;
+    height: 32px;
+}
+  
+.phone a {
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    color: #F1CDB3;
+    text-decoration: none;
+    margin-left: 20px;
+}
+  
+.we_are_waiting {
+    width: 302px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+  
+.we_are_waiting h3 {
+    font-size: 35px;
+    line-height: 45px;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    margin-top: 0;
+}
+  
+.location1 {
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+  
+.location1 img {
+    width: 22px;
+    height: 32px;
+}
+  
+.location1 a {
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    color: #F1CDB3;
+    text-decoration: none;
+    margin-left: 20px; 
+}
+  
+.location2 {
+    display: flex;
+    align-items: center;
+}
+  
+.location2 img {
+    width: 22px;
+    height: 32px;
+}
+  
+.location2 a {
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    color: #F1CDB3;
+    text-decoration: none;
+    margin-left: 20px;
+}
+  
+.footer_puppy {
+    width: 300px;
+    height: 310px;
+}
+
+@media (min-width: 768px) and (max-width: 1279px) {
+    header {
+        width: 768px;
+    }
+    .logo_menu {
+        width: 708px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    main {
+        width: 768px;
+    }
+    .our_friends {
+        width: 708px;
+    }
+    .animals {
+        width: 580px;
+    }
+    .scarlett {
+        display: none;
+    }
+    .freddie {
+        display: none;
+    }
+    .animals {
+        width: 580px;
+    }
+    .buttons {
+        width: 340px;
+    }
+    footer {
+        width: 768px;
+    }
+    .contacts {
+        width: 708px;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .for_questions {
+        margin-right: 30px;
+    }
+    .we_are_waiting {
+        margin-left: 30px;
+    }
+    .footer_puppy {
+        width: 300px;
+        height: 310px;
+        margin-top: 65px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    header {
+        width: 320px;
+    }
+    .logo_menu {
+        width: 260px;
+        justify-content: flex-start;
+    }
+    .burger {
+        display: inline-block;
+        margin-left: 50px;
+    }
+    .menu {
+        display: none;
+    }
+    main {
+        width: 320px;
+    }
+    .our_friends {
+        width: 300px;
+    }
+    .animals {
+        width: 270px;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 42px;
+    }
+    .sophia {
+        display: none;
+    }
+    .timmy {
+        display: none;
+    }
+    .charly {
+        display: none;
+    }
+    .scarlett {
+        display: none;
+    }
+    .freddie {
+        display: none;
+    }
+    .buttons{
+        width: 300px;
+        margin-bottom: 42px;
+    }
+    footer {
+        width: 320px;
+    }
+    .contacts {
+        width: 300px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .for_questions {
+        align-items: center;
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+    .for_questions h3 {
+        text-align: center;
+    }
+    .we_are_waiting {
+        align-items: center;
+        margin-bottom: 40px;
+    }
+    .we_are_waiting h3 {
+        text-align: center;
+    }
+}
