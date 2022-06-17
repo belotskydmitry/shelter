@@ -1,1 +1,1 @@
-https://belotskydmitry.github.io/pages/main
+https://belotskydmitry.github.io/shelter/pages/main
