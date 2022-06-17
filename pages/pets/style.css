@@ -1,13 +1,11 @@
 @font-face {
     font-family: Georgia;
-    src: url(../../assets/fonts/georgia/Georgia.woff);
-    src: url(../../assets/fonts/georgia/Georgia.woff2);
+    src: url(../../assets/fonts/Georgia/static/NotoSansGeorgian/NotoSansGeorgian-Regular.ttf);
 }
   
 @font-face {
     font-family: Arial;
-    src: url(../../assets/fonts/arial/ArialMT.woff);
-    src: url(../../assets/fonts/arial/ArialMT.woff2);
+    src: url(../../assets/fonts/Arial/ArialMT.woff);
 }
 
 body {
@@ -15,414 +13,521 @@ body {
     margin: 0 auto;
 }
 
-header {
-    width: 100%;
-    background: url(../../assets/images/footer-background.png);
+.wrapper-1 {
+    background: #FFFFFF;
+    position: sticky;
+    top: 0;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.logo_menu {
-    width: 1200px;
+.header {
+    width: 94%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 3%;
+    margin: 3% auto;
 }
-
-.burger {
-    display: none;
+  
+.header_logo h1 {
+    margin: 0;
 }
-
-.logo {
-    width: 184px;
-    height: 60px;
-}
-
-.menu {
-    width: 443px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.menu .a2 {
-    font-size: 15px;
-    color: #FAFAFA;
-    text-decoration: underline;
-}
-
-.menu a {
-    font-size: 15px;
-    color: #CDCDCD;
+  
+.header_logo a {
+    font-family: Georgia, serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 110%;
+    letter-spacing: 0.06em;
+    color: #545454;
     text-decoration: none;
 }
   
-.menu a:hover {
-    color: #FAFAFA;
+.header_logo p {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    line-height: 115%;
+    letter-spacing: 0.1em;
+    color: #292929;
+}
+  
+.header_burger {
+    display: none;
+}
+  
+.header_menu {
+    display: flex;
+    list-style: none;
+    gap: 3vw;
+}
+  
+.header_menu a {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    line-height: 160%;
+    color: #292929;
+    text-decoration: none;
+}
+  
+.header_menu a:hover {
+    color: #545454;
+}
+  
+.header_menu_a-current {
+    border-bottom: 3px solid #F1CDB3;
+}
+  
+.header_menu_a-current a {
+    color: #545454;
+    cursor: default;
 }
 
-main {
-    width: 100%;
+.wrapper-2 {
     background-color: #F6F6F6;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.our_friends {
-    width: 1200px;
+.our-friends {
+    width: 94%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin: 5%;
+    gap: 5vh;
+    margin: 7% auto;
 }
 
-.our_friends h3 {
+.our-friends h3 {
+    width: 30%;
+    font-family: Georgia, serif;
+    font-weight: 400;
     font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
     text-align: center;
     color: #545454;
+    margin: 0;
 }
 
-.animals {
-    width: 1200px;
+.our-friends_animals {
+    width: 94%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+}
+
+.our-friends_animals div {
+    width: 20%;
+}
+
+.our-friends_animals img {
+    width: 100%;
+}
+
+.our-friends_animals_katrine {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FAFAFA;
+    border-radius: 9px;
+}
+
+.our-friends_animals_katrine:hover {
+    cursor: pointer;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 35px 14px rgba(13, 13, 13, 0.04);
+}
+
+.our-friends_animals_katrine:hover button {
+    background-color: #FDDCC4;
+}
+
+.our-friends_animals_katrine p {
+    font-family: Georgia, serif;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: #545454;
+}
+
+.our-friends_animals_katrine button {
+    width: 187px;
+    height: 52px;
+    border: 2px solid #F1CDB3;
+    border-radius: 100px;
+    font-family: Georgia, serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #292929;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    margin-bottom: 3vh;
+}
+
+.our-friends_animals_katrine button:hover {
+    cursor: pointer;
+    background-color: #FDDCC4;
+}
+
+.our-friends_animals_jennifer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FAFAFA;
+    border-radius: 9px;
+}
+
+.our-friends_animals_jennifer:hover {
+    cursor: pointer;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 35px 14px rgba(13, 13, 13, 0.04);
+}
+
+.our-friends_animals_jennifer:hover button {
+    background-color: #FDDCC4;
+}
+
+.our-friends_animals_jennifer p {
+    font-family: Georgia, serif;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: #545454;
+}
+
+.our-friends_animals_jennifer button {
+    width: 187px;
+    height: 52px;
+    border: 2px solid #F1CDB3;
+    border-radius: 100px;
+    font-family: Georgia, serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #292929;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    margin-bottom: 3vh;
+}
+
+.our-friends_animals_jennifer button:hover {
+    cursor: pointer;
+    background-color: #FDDCC4;
+}
+
+.our-friends_animals_woody {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FAFAFA;
+    border-radius: 9px;
+}
+
+.our-friends_animals_woody:hover {
+    cursor: pointer;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 35px 14px rgba(13, 13, 13, 0.04);
+}
+
+.our-friends_animals_woody:hover button {
+    background-color: #FDDCC4;
+}
+
+.our-friends_animals_woody p {
+    font-family: Georgia, serif;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: #545454;
+}
+
+.our-friends_animals_woody button {
+    width: 187px;
+    height: 52px;
+    border: 2px solid #F1CDB3;
+    border-radius: 100px;
+    font-family: Georgia, serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #292929;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    margin-bottom: 3vh;
+}
+
+.our-friends_animals_woody button:hover {
+    cursor: pointer;
+    background-color: #FDDCC4;
+}
+
+.our-friends_animals_sophia {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FAFAFA;
+    border-radius: 9px;
+}
+
+.our-friends_animals_sophia:hover {
+    cursor: pointer;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 35px 14px rgba(13, 13, 13, 0.04);
+}
+
+.our-friends_animals_sophia:hover button {
+    background-color: #FDDCC4;
+}
+
+.our-friends_animals_sophia p {
+    font-family: Georgia, serif;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: #545454;
+}
+
+.our-friends_animals_sophia button {
+    width: 187px;
+    height: 52px;
+    border: 2px solid #F1CDB3;
+    border-radius: 100px;
+    font-family: Georgia, serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #292929;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    margin-bottom: 3vh;
+}
+
+.our-friends_animals_sophia button:hover {
+    cursor: pointer;
+    background-color: #FDDCC4;
+}
+
+.our-friends_animals_timmy {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FAFAFA;
+    border-radius: 9px;
+}
+
+.our-friends_animals_timmy:hover {
+    cursor: pointer;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 35px 14px rgba(13, 13, 13, 0.04);
+}
+
+.our-friends_animals_timmy:hover button {
+    background-color: #FDDCC4;
+}
+
+.our-friends_animals_timmy p {
+    font-family: Georgia, serif;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: #545454;
+}
+
+.our-friends_animals_timmy button {
+    width: 187px;
+    height: 52px;
+    border: 2px solid #F1CDB3;
+    border-radius: 100px;
+    font-family: Georgia, serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #292929;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    margin-bottom: 3vh;
+}
+
+.our-friends_animals_timmy button:hover {
+    cursor: pointer;
+    background-color: #FDDCC4;
+}
+
+.our-friends_animals_charly {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FAFAFA;
+    border-radius: 9px;
+}
+
+.our-friends_animals_charly:hover {
+    cursor: pointer;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 35px 14px rgba(13, 13, 13, 0.04);
+}
+
+.our-friends_animals_charly:hover button {
+    background-color: #FDDCC4;
+}
+
+.our-friends_animals_charly p {
+    font-family: Georgia, serif;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: #545454;
+}
+
+.our-friends_animals_charly button {
+    width: 187px;
+    height: 52px;
+    border: 2px solid #F1CDB3;
+    border-radius: 100px;
+    font-family: Georgia, serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #292929;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    margin-bottom: 3vh;
+}
+
+.our-friends_animals_charly button:hover {
+    cursor: pointer;
+    background-color: #FDDCC4;
+}
+
+.our-friends_animals_scarlett {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FAFAFA;
+    border-radius: 9px;
+}
+
+.our-friends_animals_scarlett:hover {
+    cursor: pointer;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 35px 14px rgba(13, 13, 13, 0.04);
+}
+
+.our-friends_animals_scarlett:hover button {
+    background-color: #FDDCC4;
+}
+
+.our-friends_animals_scarlett p {
+    font-family: Georgia, serif;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: #545454;
+}
+
+.our-friends_animals_scarlett button {
+    width: 187px;
+    height: 52px;
+    border: 2px solid #F1CDB3;
+    border-radius: 100px;
+    font-family: Georgia, serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #292929;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    margin-bottom: 3vh;
+}
+
+.our-friends_animals_scarlett button:hover {
+    cursor: pointer;
+    background-color: #FDDCC4;
+}
+
+.our-friends_animals_freddie {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FAFAFA;
+    border-radius: 9px;
+}
+
+.our-friends_animals_freddie:hover {
+    cursor: pointer;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 35px 14px rgba(13, 13, 13, 0.04);
+}
+
+.our-friends_animals_freddie:hover button {
+    background-color: #FDDCC4;
+}
+
+.our-friends_animals_freddie p {
+    font-family: Georgia, serif;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: #545454;
+}
+
+.our-friends_animals_freddie button {
+    width: 187px;
+    height: 52px;
+    border: 2px solid #F1CDB3;
+    border-radius: 100px;
+    font-family: Georgia, serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #292929;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    margin-bottom: 3vh;
+}
+
+.our-friends_animals_freddie button:hover {
+    cursor: pointer;
+    background-color: #FDDCC4;
+}
+
+.our-friends_buttons {
+    display: flex;
     justify-content: space-between;
-    gap: 30px;
-    margin: 5%;
-}
-
-.katrine {
-    width: 270px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
     align-items: center;
-    background-color: #FAFAFA;
-    border-radius: 9px;
+    gap: 1vw;
 }
 
-.katrine p {
-    font-size: 20px;
-    line-height: 23px;
-    letter-spacing: 0.06em;
-    text-align: center;
-    color: #545454;
-}
-
-.katrine button {
-    width: 187px;
-    height: 52px;
-    border: 2px solid #F1CDB3;
-    border-radius: 100px;
-    font-size: 17px;
-    line-height: 22px;
-    letter-spacing: 0.06em;
-    color: #292929;
-    margin-bottom: 20px;
-}
-
-.katrine:hover {
-    cursor: pointer;
-}
-
-.katrine:hover button {
-    cursor: pointer;
-    background-color: #FDDCC4;
-}
-
-.jennifer {
-    width: 270px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #FAFAFA;
-    border-radius: 9px;
-}
-
-.jennifer p {
-    font-size: 20px;
-    line-height: 23px;
-    letter-spacing: 0.06em;
-    text-align: center;
-    color: #545454;
-}
-
-.jennifer button {
-    width: 187px;
-    height: 52px;
-    border: 2px solid #F1CDB3;
-    border-radius: 100px;
-    font-size: 17px;
-    line-height: 22px;
-    letter-spacing: 0.06em;
-    color: #292929;
-    margin-bottom: 20px;
-}
-
-.jennifer:hover {
-    cursor: pointer;
-}
-
-.jennifer:hover button {
-    cursor: pointer;
-    background-color: #FDDCC4;
-}
-
-.woody {
-    width: 270px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #FAFAFA;
-    border-radius: 9px;
-}
-
-.woody p {
-    font-size: 20px;
-    line-height: 23px;
-    letter-spacing: 0.06em;
-    text-align: center;
-    color: #545454;
-}
-
-.woody button {
-    width: 187px;
-    height: 52px;
-    border: 2px solid #F1CDB3;
-    border-radius: 100px;
-    font-size: 17px;
-    line-height: 22px;
-    letter-spacing: 0.06em;
-    color: #292929;
-    margin-bottom: 20px;
-}
-
-.woody:hover {
-    cursor: pointer;
-}
-
-.woody:hover button {
-    cursor: pointer;
-    background-color: #FDDCC4;
-}
-
-.sophia {
-    width: 270px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #FAFAFA;
-    border-radius: 9px;
-}
-
-.sophia p {
-    font-size: 20px;
-    line-height: 23px;
-    letter-spacing: 0.06em;
-    text-align: center;
-    color: #545454;
-}
-
-.sophia button {
-    width: 187px;
-    height: 52px;
-    border: 2px solid #F1CDB3;
-    border-radius: 100px;
-    font-size: 17px;
-    line-height: 22px;
-    letter-spacing: 0.06em;
-    color: #292929;
-    margin-bottom: 20px;
-}
-
-.sophia:hover {
-    cursor: pointer;
-}
-
-.sophia:hover button {
-    cursor: pointer;
-    background-color: #FDDCC4;
-}
-
-.timmy {
-    width: 270px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #FAFAFA;
-    border-radius: 9px;
-}
-
-.timmy p {
-    font-size: 20px;
-    line-height: 23px;
-    letter-spacing: 0.06em;
-    text-align: center;
-    color: #545454;
-}
-
-.timmy button {
-    width: 187px;
-    height: 52px;
-    border: 2px solid #F1CDB3;
-    border-radius: 100px;
-    font-size: 17px;
-    line-height: 22px;
-    letter-spacing: 0.06em;
-    color: #292929;
-    margin-bottom: 20px;
-}
-
-.timmy:hover {
-    cursor: pointer;
-}
-
-.timmy:hover button {
-    cursor: pointer;
-    background-color: #FDDCC4;
-}
-
-.charly {
-    width: 270px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #FAFAFA;
-    border-radius: 9px;
-}
-
-.charly p {
-    font-size: 20px;
-    line-height: 23px;
-    letter-spacing: 0.06em;
-    text-align: center;
-    color: #545454;
-}
-
-.charly button {
-    width: 187px;
-    height: 52px;
-    border: 2px solid #F1CDB3;
-    border-radius: 100px;
-    font-size: 17px;
-    line-height: 22px;
-    letter-spacing: 0.06em;
-    color: #292929;
-    margin-bottom: 20px;
-}
-
-.charly:hover {
-    cursor: pointer;
-}
-
-.charly:hover button {
-    cursor: pointer;
-    background-color: #FDDCC4;
-}
-
-.scarlett {
-    width: 270px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #FAFAFA;
-    border-radius: 9px;
-}
-
-.scarlett p {
-    font-size: 20px;
-    line-height: 23px;
-    letter-spacing: 0.06em;
-    text-align: center;
-    color: #545454;
-}
-
-.scarlett button {
-    width: 187px;
-    height: 52px;
-    border: 2px solid #F1CDB3;
-    border-radius: 100px;
-    font-size: 17px;
-    line-height: 22px;
-    letter-spacing: 0.06em;
-    color: #292929;
-    margin-bottom: 20px;
-}
-
-.scarlett:hover {
-    cursor: pointer;
-}
-
-.scarlett:hover button {
-    cursor: pointer;
-    background-color: #FDDCC4;
-}
-
-.freddie {
-    width: 270px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #FAFAFA;
-    border-radius: 9px;
-}
-
-.freddie p {
-    font-size: 20px;
-    line-height: 23px;
-    letter-spacing: 0.06em;
-    text-align: center;
-    color: #545454;
-}
-
-.freddie button {
-    width: 187px;
-    height: 52px;
-    border: 2px solid #F1CDB3;
-    border-radius: 100px;
-    font-size: 17px;
-    line-height: 22px;
-    letter-spacing: 0.06em;
-    color: #292929;
-    margin-bottom: 20px;
-}
-
-.freddie:hover {
-    cursor: pointer;
-}
-
-.freddie:hover button {
-    cursor: pointer;
-    background-color: #FDDCC4;
-}
-
-.buttons {
-    width: 340px;
-    height: 52px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.button_left1, .button_left2 {
+.our-friends_buttons_button_left1, .our-friends_buttons_button_left2 {
     width: 52px;
     height: 52px;
     border: 2px solid #CDCDCD;
     border-radius: 100px;
 }
 
-.button1 {
+.our-friends_buttons_button1 {
     width: 52px;
     height: 52px;
     border: 2px solid #FDDCC4;
@@ -430,268 +535,222 @@ main {
     background-color: #FDDCC4;
 }
 
-.button_right1, .button_right2 {
+.our-friends_buttons_button_right1, .our-friends_buttons_button_right2 {
     width: 52px;
     height: 52px;
     border: 2px solid #FDDCC4;
     border-radius: 100px;
 }
 
-.button_right1:hover, .button_right2:hover {
+.our-friends_buttons_button_right1:hover, .our-friends_buttons_button_right2:hover {
     cursor: pointer;
     background-color: #FDDCC4;
 }
 
-footer {
-    width: 100%;
-    background: url(../../assets/images/footer-background.png);
+.wrapper-3 {
+    background: url(../../assets/images/footer-background.png), radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%), #211F20;
     display: flex;
     justify-content: center;
     align-items: flex-end;
 }
   
-.contacts {
-    width: 1200px;
+.footer {
+    width: 94%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 3%;
+    margin-top: 4%;
 }
   
-.for_questions {
-    width: 278px;
+.footer_for-questions {
+    width: 25%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    gap: 4vh;
 }
   
-.for_questions h3 {
+.footer_for-questions h3 {
+    width: 90%;
+    font-family: Georgia, serif;
+    font-weight: 400;
     font-size: 35px;
-    line-height: 45px;
+    line-height: 130%;
     letter-spacing: 0.06em;
     color: #FFFFFF;
-    margin-top: 0;
+    margin: 0;
 }
   
-.email {
+.footer_for-questions h4 {
     display: flex;
+    margin: 0;
+}
+  
+.footer_for-questions a {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    margin-top: 0;
-    margin-bottom: 50px;
-}
-  
-.email img {
-    width: 40px;
-    height: 32px;
-}
-  
-.email a {
+    gap: 1vw;
+    font-family: Georgia, serif;
+    font-weight: 400;
     font-size: 20px;
-    line-height: 23px;
+    line-height: 115%;
     letter-spacing: 0.06em;
     color: #F1CDB3;
     text-decoration: none;
-    margin-left: 20px;
 }
   
-.phone {
-    display: flex;
-    align-items: center;
-}
-  
-.phone img {
-    width: 40px;
-    height: 32px;
-}
-  
-.phone a {
-    font-size: 20px;
-    line-height: 23px;
-    letter-spacing: 0.06em;
-    color: #F1CDB3;
-    text-decoration: none;
-    margin-left: 20px;
-}
-  
-.we_are_waiting {
-    width: 302px;
+.footer_we-are-waiting {
+    width: 25%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    gap: 3vh;
 }
   
-.we_are_waiting h3 {
+.footer_we-are-waiting h3 {
+    width: 90%;
+    font-family: Georgia, serif;
+    font-weight: 400;
     font-size: 35px;
-    line-height: 45px;
+    line-height: 130%;
     letter-spacing: 0.06em;
     color: #FFFFFF;
-    margin-top: 0;
+    margin: 0;
 }
   
-.location1 {
+.footer_we-are-waiting h4 {
     display: flex;
+    margin: 0;
+}
+  
+.footer_we-are-waiting a {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    margin-top: 0;
-    margin-bottom: 40px;
-}
-  
-.location1 img {
-    width: 22px;
-    height: 32px;
-}
-  
-.location1 a {
+    gap: 1vw;
+    font-family: Georgia, serif;
+    font-weight: 400;
     font-size: 20px;
-    line-height: 23px;
+    line-height: 115%;
     letter-spacing: 0.06em;
     color: #F1CDB3;
     text-decoration: none;
-    margin-left: 20px; 
-}
-  
-.location2 {
-    display: flex;
-    align-items: center;
-}
-  
-.location2 img {
-    width: 22px;
-    height: 32px;
-}
-  
-.location2 a {
-    font-size: 20px;
-    line-height: 23px;
-    letter-spacing: 0.06em;
-    color: #F1CDB3;
-    text-decoration: none;
-    margin-left: 20px;
-}
-  
-.footer_puppy {
-    width: 300px;
-    height: 310px;
 }
 
 @media (min-width: 768px) and (max-width: 1279px) {
-    header {
-        width: 768px;
-    }
-    .logo_menu {
-        width: 708px;
-        margin-left: 30px;
-        margin-right: 30px;
-    }
-    main {
-        width: 768px;
-    }
-    .our_friends {
-        width: 708px;
-    }
-    .animals {
-        width: 580px;
-    }
-    .scarlett {
-        display: none;
-    }
-    .freddie {
-        display: none;
-    }
-    .animals {
-        width: 580px;
-    }
-    .buttons {
-        width: 340px;
-    }
-    footer {
-        width: 768px;
-    }
-    .contacts {
-        width: 708px;
-        flex-wrap: wrap;
+   .our-friends h3 {
+       width: 45%;
+   }
+
+   .our-friends_animals {
+       gap: 3vw;
+   }
+
+   .our-friends_animals div {
+       width: 35%;
+   }
+
+   .our-friends_animals_scarlett {
+       display: none;
+   }
+
+   .our-friends_animals_freddie {
+       display: none;
+   }
+
+   .our-friends_buttons {
+        gap: 2vw;
+   }
+
+   .footer {
         justify-content: center;
-        align-items: center;
-    }
-    .for_questions {
-        margin-right: 30px;
-    }
-    .we_are_waiting {
-        margin-left: 30px;
-    }
-    .footer_puppy {
-        width: 300px;
-        height: 310px;
-        margin-top: 65px;
-    }
+        align-items: flex-end;
+        flex-wrap: wrap;
+        gap: 5vh 5vw;
+  }
+
+  .footer_for-questions {
+        width: 40%;
+  }
+
+  .footer_we-are-waiting {
+        width: 45%;
+        gap: 3.4vh;
+  }
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
-    header {
-        width: 320px;
-    }
-    .logo_menu {
-        width: 260px;
-        justify-content: flex-start;
-    }
-    .burger {
+    .header_burger {
         display: inline-block;
-        margin-left: 50px;
     }
-    .menu {
+
+    .header_menu {
         display: none;
     }
-    main {
-        width: 320px;
+
+    .our-friends h3 {
+        width: 90%;
+        font-size: 25px;
     }
-    .our_friends {
-        width: 300px;
-    }
-    .animals {
-        width: 270px;
+
+    .our-friends_animals {
         flex-direction: column;
-        align-items: center;
-        margin-bottom: 42px;
+        gap: 3vh;
     }
-    .sophia {
+
+    .our-friends_animals div {
+        width: 90%;
+    }
+
+    .our-friends_animals_sophia {
         display: none;
     }
-    .timmy {
+
+    .our-friends_animals_timmy {
         display: none;
     }
-    .charly {
+
+    .our-friends_animals_charly {
         display: none;
     }
-    .scarlett {
+
+    .our-friends_animals_scarlett {
         display: none;
     }
-    .freddie {
+
+    .our-friends_animals_freddie {
         display: none;
     }
-    .buttons{
-        width: 300px;
-        margin-bottom: 42px;
-    }
-    footer {
-        width: 320px;
-    }
-    .contacts {
-        width: 300px;
+
+    .footer {
         flex-direction: column;
+        gap: 5vh;
+    }
+    
+    .footer_for-questions {
+        width: 90%;
         align-items: center;
     }
-    .for_questions {
-        align-items: center;
-        margin-top: 30px;
-        margin-bottom: 40px;
-    }
-    .for_questions h3 {
+    
+    .footer_for-questions h3 {
+        width: 80%;
+        font-size: 25px;
         text-align: center;
     }
-    .we_are_waiting {
+    
+    .footer_we-are-waiting {
+        width: 90%;
         align-items: center;
-        margin-bottom: 40px;
     }
-    .we_are_waiting h3 {
+    
+    .footer_we-are-waiting h3 {
+        width: 80%;
+        font-size: 25px;
         text-align: center;
+    }
+    
+    .footer_dog {
+        width: 90%;
     }
 }
